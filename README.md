@@ -1,24 +1,13 @@
-# interview--app
+# ServiOn Single Page
 
-## Project setup
-```
-npm install
-```
+Single page application for ServiOn landing page
+[Demo](https://vuejs.org)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Tools used
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+This project was created using
+- [VueJS](https://vuejs.org)
+- [Tailwind CSS](https://tailwindcss.com)
+- [Vue Icon](https://github.com/qinshenxue/vue-icon)
+- [Vue Slick Carousel](https://github.com/gs-shop/vue-slick-carousel)
+- [Vue Star Rating](https://github.com/craigh411/vue-star-rating)

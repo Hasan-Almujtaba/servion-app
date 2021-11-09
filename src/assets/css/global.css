@@ -1,0 +1,30 @@
+@import './font.css';
+@import './form.css';
+
+.title{
+  @apply text-xl font-bold text-center;
+}
+
+.subtitle {
+  @apply text-center text-gray-400;
+}
+
+.content {
+  @apply p-10 lg:p-20;
+}
+
+.responsive-flex{
+  @apply hidden lg:flex;
+}
+
+.responsive-block{
+  @apply hidden lg:block;
+}
+
+.slider-desktop {
+  @apply hidden lg:block !important;
+}
+
+.slider-mobile {
+  @apply block lg:hidden !important;
+}

@@ -1,0 +1,4 @@
+.servion-input-element {
+  background-color: #384170;
+  @apply h-10 outline-none px-3 rounded;
+}

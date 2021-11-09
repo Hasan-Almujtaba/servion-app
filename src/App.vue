@@ -1,28 +1,37 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <web-navigation></web-navigation>
+    <hero-section></hero-section>
+    <top-content></top-content>
+    <tool-resource></tool-resource>
+    <pricing-content></pricing-content>
+    <testimony-content></testimony-content>
+    <client-content></client-content>
+    <web-footer></web-footer>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HeroSection from "./components/HeroSection.vue";
+import WebNavigation from "./components/WebNavigation.vue";
+import TopContent from "./components/TopContent.vue";
+import ToolResource from "./components/ToolResource.vue";
+import PricingContent from "./components/PricingContent.vue";
+import TestimonyContent from "./components/TestimonyContent.vue";
+import ClientContent from "./components/ClientContent.vue";
+import WebFooter from "./components/WebFooter.vue";
 
 export default {
-  name: 'App',
   components: {
-    HelloWorld
-  }
-}
+    WebNavigation,
+    HeroSection,
+    TopContent,
+    ToolResource,
+    PricingContent,
+    TestimonyContent,
+    ClientContent,
+    WebFooter,
+  },
+  name: "App",
+};
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>

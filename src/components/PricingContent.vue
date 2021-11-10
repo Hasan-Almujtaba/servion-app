@@ -29,13 +29,13 @@ export default {
           price: "$15.99",
         },
         {
-          image: "iconx.png",
+          image: "vps.png",
           title: "vps hosting",
           text: "Be able to conceal your ID whenever needed",
           price: "$8.99",
         },
         {
-          image: "icony.png",
+          image: "cloud-host.png",
           title: "cloud hosting",
           text: "Super convenient and highly customizable option",
           price: "$7.99",
